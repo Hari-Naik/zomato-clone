@@ -1,0 +1,186 @@
+.getApp{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.background{
+    background-color: rgb(255, 251, 247);
+}
+
+
+.getApp__header {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+
+.getApp__nav {
+    width: fit-content;
+    display: flex;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: 250px;
+}
+
+.getApp__nav > a > img {
+    width: 140px;
+}
+
+.getApp__nav>ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 150px;
+
+}
+
+.getApp__nav>ul>a {
+    text-decoration: none;
+}
+
+.getApp__nav>ul>li {
+    color: gray;
+    margin-left: 30px;
+}
+
+.getApp__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.height{
+    padding-top: 40px;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+.getApp__container>img {
+    width: 25%;
+    object-fit: contain;
+}
+
+.getApp__container__content{
+    margin-left: 40px;
+}
+
+.getApp__container__content > h1 {
+    color: rgb(28, 28, 28);
+    font-family: "Sans serif";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+.getApp__container__content > p {
+    color: rgb(54, 54, 54);
+    font-size: inherit;
+    font-weight: 300;
+}
+
+.radio__buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.radio__buttons > div{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+
+.radio__buttons > div > label{
+    cursor: pointer;
+    color: rgb(28, 28, 28);
+    font-size: inherit;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.input__container{
+    display:flex;
+    align-items: center;
+}
+
+.input__container > div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 270px;
+    height: 78px;
+}
+
+.input__container > div > input{
+   padding: 10px;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid lightgray;
+   padding-left: 10px;
+   color: rgb(28, 28, 28);
+   font-size: inherit;
+   font-family: "sans-serif";
+}
+
+
+.input__container > button{
+    width: fit-content;
+    height: 40px;
+    opacity: 1!important;
+    margin-left: 20px;
+}
+
+.error__msg{
+    color: rgb(214, 65, 85);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.download__app{
+    margin-top: 20px;
+}
+
+.download__app > p{
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.download__app__options > a > img{
+    width: 130px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

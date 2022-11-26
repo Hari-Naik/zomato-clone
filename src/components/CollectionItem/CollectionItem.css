@@ -1,0 +1,42 @@
+
+.collection_item{
+    height: 280px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.collection_item > div {
+   width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-bottom: -70px;
+}
+
+.collection_item > div > img{
+    width: 100%;
+    height: 100%;
+     border-radius: 8px;
+}
+
+.collection_item_info{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.collection_item_info > h2{
+    font-size: 18px;
+}
+
+.collection_item_info > div {
+    display: flex;
+}
+
+.collection_item_info > div > p{
+    font-size: 16px;
+}
+
+.collection_item_info_icon{
+    height: 26px!important;
+    width: 26px!important;
+}

@@ -1,0 +1,21 @@
+
+.style{
+    border-bottom: 3px solid #ff7e8b;
+}
+
+.delivery{
+    background-color: rgb(252, 238, 192) !important;
+}
+
+.diningOut{
+    background-color: rgb(229, 243, 243)!important;
+}
+
+.nightLife{
+    background-color: lightblue!important;
+}
+
+.color{
+    font-weight: 500!important;
+    color: #ff7e8b!important;
+}

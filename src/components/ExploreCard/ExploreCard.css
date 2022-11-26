@@ -1,0 +1,110 @@
+.explore_card{
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    width: 32%;
+    height: fit-content;
+    box-sizing: inherit;
+    margin-bottom: 25px;
+}
+
+.explore_card:hover{
+     cursor: pointer;
+     box-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+
+.img_container{
+    width: 100%;
+    height: 248px;
+}
+
+.img_container > img{
+    width: 100%;
+    height: 248px;
+    border-radius: 8px;
+}
+
+
+.explore_card_info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.explore_card_info > h2{
+    line-height: 1.2;
+    margin-block-end: 0px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(28, 28, 28);
+    
+}
+
+.explore_card_info > p{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+}
+
+.rating{
+    height: 20px;
+    min-width: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: rgb(38, 126, 62);
+    color: rgb(255, 255, 255);
+}
+
+.rating > p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.starIcon{
+    height: 14px!important;
+    width: 14px!important;
+    align-self: flex-end;
+}
+
+.hr_line{
+    width: 100%;
+    height: 0.8px;
+    background-color: rgb(232, 232, 232);
+    margin-bottom: 10px;
+}
+
+.orders_placed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.orders_placed > div{
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.orders_placed_icon{
+    color: #fff;
+    height: 12px!important;
+    width: 12px!important;
+}
+
+.orders_placed > small{
+    margin-left: 5px;
+}

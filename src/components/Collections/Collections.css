@@ -1,0 +1,39 @@
+.collections{
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    padding-bottom: 30px;
+}
+
+.collections_container{
+    width: 80%;
+    margin: auto;
+}
+
+.collections_container > h2{
+color: rgb(28, 28, 28);
+font-size: 28px;
+font-weight: 500;
+ padding-left: 10px;
+}
+
+
+.collections_container > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    margin-top: 25px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.collections_container > div > div{
+    display: flex;
+    color: #ff7e8b;
+}
+.collection_items{
+    width: 100%;
+    padding-left: 0px;
+    list-style-type: none;
+}

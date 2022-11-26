@@ -1,0 +1,29 @@
+.brandItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.brandItem > img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+
+.brandItem > p{
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+.brandItem > small {
+    font-size: 14px;
+    padding-top: 5px;
+}

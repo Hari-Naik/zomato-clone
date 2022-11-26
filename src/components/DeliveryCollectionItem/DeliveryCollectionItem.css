@@ -1,0 +1,23 @@
+.delivery_collection_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.delivery_collection_item > img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+
+.delivery_collection_item > p{
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}

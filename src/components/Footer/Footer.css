@@ -1,0 +1,138 @@
+.footer{
+    width: 100vw;
+    height: fit-content;
+    padding-top: 40px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.footer__container__header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__container__header > img {
+    width: 140px;
+    object-fit: contain;
+}
+
+.footer__container__header > div{
+    display: flex;
+    align-items: center;
+}
+
+.flag__img{
+    margin-top: 5px;
+    width: 20px;
+}
+
+.footer__container__header > div > div{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.footer__container__header > div > div > h2{
+    color: rgb(28, 28, 28);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.expandMore__icon{
+    color: rgb(28, 28, 28);
+    height: 22px!important;
+    width: 22px!important;
+    margin-left: 5px;
+}
+
+.language__icon{
+    height: 22px!important;
+    width: 22!important;
+}
+
+.footer__container__info{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.about__zomato > h6{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "sans-serif";
+    letter-spacing: 1.8px;
+
+}
+
+.about__zomato > ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.about__zomato > ul > li{
+    color: rgb(105, 105, 105);
+    font-family: "Okra";
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enterprizes{
+    margin-top: 30px;
+}
+
+.social__links > ul{
+    display: flex;
+    margin-top: 10px;
+}
+
+.social__links > ul > a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+.social__links > ul > a >li:hover{
+     color: rgb(28, 28, 28);
+    cursor: pointer;
+}
+
+
+.social__links > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.social__links > div > a > img {
+    width: 120px;
+}
+
+.copyRight{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.copyRight > p {
+     color: rgb(79, 79, 79);
+     margin-top: 15px;
+     font-size: 12px;
+}

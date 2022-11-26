@@ -1,0 +1,10 @@
+
+.filters{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 0px;
+}
